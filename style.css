@@ -1,0 +1,126 @@
+/* Reset CSS for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial, sans-serif';
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    color: #34495e;
+    background: linear-gradient(to right, #d4145a, #fbb03b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 20px;
+}
+
+.image-content {
+    max-width: 40%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .text-content {
+        max-width: 3000%;
+        text-align: center;
+    }
+
+    .image-content {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+.async-card {
+    width: 100%; /* Adjust width as needed */
+    max-width: 650px; /* Example maximum width */
+    border: 1px solid #e0dfdf; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure content does not overflow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 20px; /* Example margin */
+    padding: 0px; /* Example padding */
+    position:right;
+    float: right;
+    margin-left: 20px;
+  }
+  
+  /* Style for the image inside async card */
+  .async-card img {
+    width: 100%; /* Make image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default spacing */
+    justify-content:center;
+    border-radius: 8px; /* Rounded corners */
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0055A4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #003d7a;
+}

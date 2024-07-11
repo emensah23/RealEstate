@@ -1,2 +1,0 @@
-git config --global user.email "asa@gmai.com"
-  git config --global user.name "NEW REPO CREATED"

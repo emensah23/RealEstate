@@ -88,7 +88,7 @@ body {
 }
 .async-card {
     width: 100%; /* Adjust width as needed */
-    max-width: 650px; /* Example maximum width */
+    max-width: 500px; /* Example maximum width */
     border: 1px solid #e0dfdf; /* Border for the card */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Ensure content does not overflow */
@@ -124,3 +124,17 @@ body {
 .button:hover {
     background-color: #003d7a;
 }
+/* .hero-image {
+    margin-top: 2em;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-image p {
+    margin-top: 1em;
+    color: #333;
+  } */
+   
